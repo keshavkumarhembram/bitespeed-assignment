@@ -1,1 +1,40 @@
-node_modules
+# Node.js dependencies
+node_modules/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Compiled output
+dist/
+build/
+
+# Prisma generated files
+prisma/dev.db
+prisma/dev.db-journal
+prisma/migrations/
+
+# Environment variables
+.env
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor settings (optional)
+.vscode/
+.idea/
+*.sw?
+
+# Test coverage
+coverage/
+
+# Optional: if using Prisma with SQLite for testing
+*.sqlite
+*.sqlite-journal
