@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev src/index.ts",
-    "start": "node index.js"
-  },
+  "dev": "ts-node-dev src/index.ts",
+  "build": "tsc",
+  "start": "node build/index.js",
+  "prisma:generate": "prisma generate",
+  "prisma:migrate": "prisma migrate deploy"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
